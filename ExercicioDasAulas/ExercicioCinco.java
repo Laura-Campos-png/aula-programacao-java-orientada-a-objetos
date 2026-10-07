@@ -10,7 +10,7 @@ public class ExercicioCinco {
         for (int i = 0; i < matriz.length; i++) {
             int quantidade = linhas[i];
 
-            // quantidade 0 = linha fica null (não cria o array)
+            
             if (quantidade > 0) {
                 matriz[i] = new int[quantidade];
 
